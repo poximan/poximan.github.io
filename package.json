@@ -1,0 +1,12 @@
+{
+  "name": "espacio-nagare",
+  "version": "1.0.0",
+  "description": "SPA de Espacio Nagare con servidor Node.js simple",
+  "private": true,
+  "scripts": {
+    "client:install": "npm install --prefix client",
+    "dev": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "node server.js"
+  }
+}
